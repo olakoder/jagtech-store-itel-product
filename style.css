@@ -4,9 +4,10 @@
     line-height: 1.5;
 }
 
-/* .about-features {
-    width: 100%;
-} */
+.discount {
+    font-size: 1.3em;
+    text-align: center;
+}
 
 .hide {
     display: none;
@@ -96,14 +97,7 @@ body {
     color: #006e96;
 }
 .container {
-    /* width: 90%; */
-    /* margin: auto; */
-
-    /* text-align: center; */
-    /* height: 100vh; */
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
     flex-direction: column;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     gap: 2em;
@@ -111,10 +105,6 @@ body {
 
     font-size: 1em;
     padding: 2em 1em;
-}
-
-h2, p {
-    /* margin-top: 0; */
 }
 
 img {
@@ -145,9 +135,10 @@ a:hover {
 
 @media only screen and (min-width: 960px) {
     .container {
-        width: 900px;
-        margin: auto;
+        /* width: 900px; */
+        /* margin: auto; */
         padding: 2em 4em;
+        /* font-size: 0.8em; */
     }
 
     .hero-section {
