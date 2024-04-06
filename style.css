@@ -18,9 +18,8 @@
 }
 
 .get-started {
-    /* width: 100%; */
-    /* padding: 6em; */
-    /* text-align: center; */
+    text-align: center;
+    padding-top: 1.5em;
 }
 
 .features, .features-product {
@@ -128,14 +127,13 @@ a {
     background-color: #006e96;
     border: 2px solid #006e96;
     color: white;
-    /* width: 100%; */
-    padding: 1em;
+    width: 100%;
+    padding: 1em 4em;
     border-radius: 10px;
     font-weight: bold;
     transition: all 0.4s;
-    /* width: 90%; */
-    /* margin: 0 4em; */
-    /* margin-top: 4em; */
+    width: 90%;
+    text-align: center;
 }
 
 a:hover {
@@ -145,7 +143,7 @@ a:hover {
     border: 2px solid #006e96;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 960px) {
     .container {
         width: 900px;
         margin: auto;
@@ -159,12 +157,14 @@ a:hover {
 
     .features {
         flex-direction: row;
+        align-items: center;
+        /* gap: 3em; */
         /* display: flex; */
     }
 
     .features img {
-        width: 30%;
-        /* height: 100%; */
+        width: 20%;
+        height: 100%;
     }
 
     .specification-features {
@@ -173,5 +173,9 @@ a:hover {
 
     .hide {
         display: block;
+    }
+
+    .get-started {
+        text-align: left;
     }
 }
